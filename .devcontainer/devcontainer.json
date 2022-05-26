@@ -9,5 +9,6 @@
 		"eamodio.gitlens",
 		"wayou.vscode-todo-highlightx",
 		"golang.go"
-	]
+	],
+	"postStartCommand": "go install"
 }
