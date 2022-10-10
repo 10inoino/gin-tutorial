@@ -6,5 +6,5 @@ RUN touch /root/.bash_profile
 RUN echo 'source ~/.bashrc' >> /root/.bash_profile
 
 # AWSのcredentialsを設定
-RUN mkdir /root/.aws
-COPY credentials /root/.aws/credentials
+# RUN mkdir /root/.aws
+# COPY credentials /root/.aws/credentials
